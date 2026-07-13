@@ -1,3 +1,5 @@
+import indujaaImage from './assets/indujaa.jpeg';
+
 const skills = [
   'Java',
   'Python',
@@ -101,7 +103,7 @@ function App() {
 
           <div className="hero__visual">
             <div className="photo-frame">
-              <img src="/assets/indujaa.jpeg" alt="Indujaa portrait placeholder" />
+              <img src={indujaaImage} alt="Indujaa portrait" />
             </div>
             </div>            
         </section>
